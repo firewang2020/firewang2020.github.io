@@ -102,4 +102,8 @@ friends: [
         title: "my_Github",
         href: "https://github.com/firewang"
     },
+    {
+    title: "腾讯云专栏",
+    href: "https://cloud.tencent.com/developer/column/75121",
+    }
 ]
