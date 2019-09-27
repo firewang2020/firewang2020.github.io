@@ -107,3 +107,5 @@ friends: [
     href: "https://cloud.tencent.com/developer/column/75121",
     }
 ]
+
+theme: jekyll-theme-cayman
