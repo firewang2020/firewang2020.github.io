@@ -77,7 +77,7 @@ gitalk:
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-148818049-1'            # Format: UA-xxxxxx-xx
 ga_domain:   auto     # 默认的是 auto, 自定义域名(qiubaiying.top)，如果没有自己的域名，需要改成auto
 
 
@@ -99,11 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Github",
-        href: "https://github.com/firewang",
-    },
-    {
-      title: "腾讯云专栏",
-      href: "https://cloud.tencent.com/developer/column/75121",
+        title: "my_Github",
+        href: "https://github.com/firewang"
     },
 ]
