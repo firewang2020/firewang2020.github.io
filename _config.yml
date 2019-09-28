@@ -1,13 +1,13 @@
 # Site settings
-title: Zero Zone
-SEOTitle: 零维领域 | Zero Zone
+title: dddd
+SEOTitle: dddd
 header-img: img/post-bg-desk.jpg
-email: lsybr2014@163.com
+email: dddd
 description: "dive into machine learning."
 keyword: "machine learning, python, "
-url: "https://firewang.github.io"          # your host, for absolute URL
+url: "https://firewang2020.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/firewang/firewang.github.io.git" # you code repository
+github_repo: "https://github.com/firewang2020/firewang2020.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/qrcode_for_lingweilingyu.jpg      # use absolute URL, seein
 RSS: false
 # weibo_username:     qiubaiying
 # zhihu_username:     qiubaiying
-github_username:    firewang
+github_username:    firewang2020
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: b3562701ade5238190b8                            #生成的clientID
   clientSecret: 854ab30184ae2cd283653d18c8397185e98b8cb7    #生成的clientSecret
-  repo: firewang.github.io    #仓库名称
-  owner: firewang    #github用户名
-  admin: firewang
+  repo: firewang2020.github.io    #仓库名称
+  owner: firewang2020    #github用户名
+  admin: firewang2020
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -100,7 +100,7 @@ service-worker: true
 friends: [
     {
         title: "my_Github",
-        href: "https://github.com/firewang"
+        href: "https://github.com/firewang2020"
     },
     {
     title: "腾讯云专栏",
