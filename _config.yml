@@ -69,6 +69,14 @@ gitalk:
   admin: firewang2020
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
+valine_comment:
+  enable: true
+  # app_id
+  leancloud_appid: knEe7Rc6frt1ygf3gAwBTbnB-gzGzoHsz
+  # app_key
+  leancloud_appkey: 2yxyYCewv3lUoTOpl77PT0QX
+  # placeholde
+  placeholder: “Just go go"
 
 # 统计
 

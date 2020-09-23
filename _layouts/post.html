@@ -113,6 +113,18 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+                {% if site.valine_comment.enable %}
+                <!-- valine  评论框-->
+                <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+                <script>
+                    new Valine({
+                        el: '#comments',
+                        app_id: '{{ site.valine_comment.leancloud_appid }}',
+                        app_key: '{{ site.valine_comment.leancloud_appkey }}',
+                        placeholder:'{{ site.valine_comment.placeholder }}'
+                    });</script>
+                {% endif %}
 
             </div>  
 

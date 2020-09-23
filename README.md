@@ -10,7 +10,7 @@
 
 更为详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/firewang/firewang.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
 
-### [查看博客戳这里 👆](http://firewang.github.io)
+### [查看博客戳这里 👆](http://firewang2020.github.io)
 
 
 
@@ -49,18 +49,20 @@
 ```
 # Site settings
 title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
+SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题, html title
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: firewang     # 你的github账号
+github_username: firewang2020     # 你的github账号
 jianshu_username: e71990ada2fd  # 你的简书ID。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
 ```
 
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
+Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式
++ [Jekyll - Official Site](http://jekyllrb.com/) 
++ [Jekyll中文版](http://jekyllcn.com/).
 
 ### 撰写博文
 
@@ -113,7 +115,7 @@ Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账
 ```
 # Featured Tags
 featured-tags: true  
-featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value (default 1)
 ```
 
 唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
@@ -133,8 +135,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	# weibo_username:   username
 
 
-​	
-
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
 
 ### Friends
@@ -148,7 +148,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 friends: [
     {
         title: "BY Blog",
-        href: "https://firewang.github.io/"
+        href: "https://firewang2020.github.io/"
     },
     {
         title: "Apple",
@@ -180,7 +180,8 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 ### Comment
 
-博客不仅支持 [Disqus](http://disqus.com) 评论系统,还加入了 [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)，cool~
++ [Disqus](http://disqus.com) 评论系统,还加入了 
++ [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)
 
 #### Disqus
 
@@ -192,14 +193,14 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 **使用：**
 
-**首先**，你需要去注册一个Disqus帐号。**不要直接使用我的啊！**
+**首先**，你需要去注册一个Disqus帐号
 
 **其次**，你只需要在下面的 yaml 头文件中设置一下就可以了。
 
 ```
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: firewang
+disqus_username: firewang2020
 ```
 
 #### Gitalk
@@ -210,7 +211,7 @@ disqus_username: firewang
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://firewang.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+参考我的这篇文章：[《为博客添加 Gitalk 评论插件》]()
 
 
 ### Analytics
@@ -238,7 +239,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 
-> 上传的图片最好先压缩，这里推荐 imageOptim 图片压缩软件，让你的博客起飞。
+> 上传的图片最好先压缩，这里推荐 [imageOptim](https://imageoptim.com/) 图片压缩软件，让你的博客起飞。
 
 但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
 
@@ -274,5 +275,5 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ## License
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/firewang/firewang.github.io/blob/master/LICENSE)。
+遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/firewang2020/firewang2020.github.io/blob/master/LICENSE)。
 
